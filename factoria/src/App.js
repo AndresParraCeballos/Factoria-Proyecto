@@ -5,6 +5,7 @@ import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import Nofound from './components/layout/Nofound';
 import Panel from './components/panel/Panel';
+import Investigaciones from './components/investigaciones/Investigaciones';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/register" component={Register}/>
         <Route exact path="/nofound" component={Nofound}/>
         <Route exact path="/panel" component={Panel}/>
+        <Route exact path="/investigaciones" component={Investigaciones}/>
       </Switch>
     </Router>
   );

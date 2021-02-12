@@ -1,9 +1,5 @@
 import React from 'react';
 import Logo from '../../img/100x100.png';
-import Friends from '../../img/friends.svg';
-import Teacher from '../../img/teacher.svg';
-import User from '../../img/user.svg';
-import Forum from '../../img/forum.svg';
 
 const Panel = () => {
     return (
