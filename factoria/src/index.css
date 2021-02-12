@@ -42,6 +42,19 @@ h1{
   text-align: center;
 }
 
+.centrar{
+  display: block;
+  margin: 0 auto;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.negrita{
+  font-weight: 700;
+}
+
 /**Barra**/
 
 .barra{
@@ -196,5 +209,125 @@ a{
   background-color: var(--colorPrimarioHover);
   cursor: pointer;
 }
+
+
+/**Pagina no found**/
+
+.fondo{
+  padding: 3rem;
+  background-color: var(--blanco);
+  border-radius: 1rem;
+  width: 90%;
+  display: block;
+  margin: 5rem auto;
+}
+
+@media(min-width:480px){
+  .fondo{
+    padding: 7rem 5rem;
+    margin-top: 10rem;
+  }
+}
+
+.img-usco{
+  width: 40%;
+  display: block;
+  margin: 0rem auto;
+}
+
+/**Panel de control**/
+
+.marco{
+  background-color: var(--blanco);
+  height: 100vh;
+}
+
+@media(min-width:480px){
+  .marco{
+    max-width: 1200px;
+    margin: 5rem auto;
+    padding: 8rem;
+    border-radius: 12px;
+    height: 100%;
+  }
+}
+
+.flexbox{
+  display: flex;
+  flex-direction: column;
+}
+
+@media(min-width:480px){
+  .flexbox{
+    flex-direction: row;
+  }
+}
+
+.imgperfil{
+  border-radius: 50%;
+  display: block;
+  margin: 3rem auto;
+  border: 1px solid var(--colorSecundario);
+}
+
+.linea{
+  border-top: 3px solid var(--colorSecundario);
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media(min-width: 480px){
+  .linea{
+    display: none;
+  }
+
+  .lineah{
+    border-left: 3px solid var(--colorSecundario);
+    padding: 3rem;
+  }
+}
+
+.panel{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.item-panel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media(min-width:480px){
+  .dos-columnas{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item-panel{
+    flex-direction: column;
+    flex-basis: calc(50% - 1rem);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+}
+
+.cardround{
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--colorSecundario);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+.imgitems-panel{
+  margin: 0;
+}
+
 
 
