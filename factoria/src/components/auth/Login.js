@@ -36,8 +36,7 @@ const Login = () => {
                     <div className="campo-form">
                         <input
                             type="submit"
-                            className="btn btn-primario btn-block"
-                            value="Entrar"
+                            value="Ingresar"
                             className="button"
                         />
                     </div> 
@@ -51,7 +50,6 @@ const Login = () => {
                     <div className="campo-form">
                         <input
                             type="submit"
-                            className="btn btn-primario btn-block"
                             value="Registrate"
                             className="button-login"
                         />

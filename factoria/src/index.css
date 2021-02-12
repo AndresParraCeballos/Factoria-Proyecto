@@ -24,10 +24,16 @@ body {
 
 /**Seteo h1**/
 h1{
-
   font-family: var(--headingFont);
-  font-weight: 300;
-  font-size: 4rem;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+@media(min-width:480px){
+  h1{
+    font-weight: 300;
+    font-size: 4rem;
+  }
 }
 
 /**Clases auxiliares**/
@@ -165,7 +171,7 @@ a{
 }
 
 .button{
-  padding: 1.5rem 14rem;
+  padding: 1.5rem 12rem;
   background-color: var(--colorPrimaro);
   border: 0.8px solid #fff;
   border-radius: 5rem;
@@ -184,6 +190,7 @@ a{
   border-radius: 5rem;
   color: var(--colorSecundario)
 }
+
 
 .button-login:hover{
   background-color: var(--colorPrimarioHover);
