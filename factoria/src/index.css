@@ -197,22 +197,24 @@ a{
 }
 
 .button:hover{
-  background-color: var(--colorPrimarioHover);
+  background-color: var(--colorSecundario);
   cursor: pointer;
+  color: var(--colorPrimaro);
 }
 
 .button-login{
   padding: 0.8rem 5rem;
-  background-color: var(--colorPrimaro);
-  border: 0.8px solid #fff;
+  background-color: var(--blanco);
+  border: 2px solid var(--colorPrimaro);
   border-radius: 5rem;
-  color: var(--colorSecundario)
+  color: var(--colorPrimaro)
 }
 
 
 .button-login:hover{
   background-color: var(--colorPrimarioHover);
   cursor: pointer;
+  color: var(--colorSecundario);
 }
 
 
@@ -237,7 +239,7 @@ a{
 .img-usco{
   width: 40%;
   display: block;
-  margin: 0rem auto;
+  margin: 5rem auto;
 }
 
 /**Panel de control**/
