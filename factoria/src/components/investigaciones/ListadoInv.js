@@ -2,9 +2,9 @@ import React from 'react';
 import Imagen from '../../img/400x400.png';
 const ListadoInv = () => {
     return (
-        <div className="cardview">
+        <div className="cardview ">
             <div className="flexbox">
-                <img className="imagen" src={Imagen}/>
+                <img className="img-investigacion" src={Imagen}/>
                 <div className="encabezado">
                     <h2> Titulo 1 </h2>
                     Tipo:<span>trabajo de grado</span>

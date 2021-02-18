@@ -3,6 +3,7 @@
   --colorPrimarioHover: #b61f26;
   --colorSecundario:#DFD4A6;
   --blanco: #ffffff;
+  --gris: #d3d3d3;
   --headingFont:'Raleway', sans-serif;
   --textFont:  'Roboto', sans-serif;
 }
@@ -341,9 +342,89 @@ a{
   background-color: var(--blanco);
 }
 
+.fondodatosuser{
+  
+  
+  background-color: var(--colorSecundario);
+  border-radius: 1rem;
+  width: 90%;
+  display: block;
+  margin: 5rem auto;
+  
+  
+ 
+  
+}
+
+.fondotittle{
+  
+  
+  background-color: var(--blanco);
+  border-radius: 1rem;
+  width: 90%;
+  display: block;
+  margin: 5rem auto;
+  
+  
+ 
+  
+}
+.fondointegrante{
+  
+  
+  background-color: var(--gris);
+  border-radius: 1rem;
+  padding: 30px ;
+  width: 100%;
+  display: block;
+  margin: 5rem auto;
+  
+  
+  
+ 
+  
+}
+
 .encabezado{
   display: flex;
   justify-content: space-between;
+}
+.imgperfil{
+  border-radius: 50%;
+  width: 100px; 
+  display: block;
+  
+}
+.img-investigacion{
+  border-radius: 50%;
+  width: 150px; 
+  display: block;
+  margin-left: 2rem;
+  
+}
+
+.button-perfil{
+  padding: 0.8rem 4rem;
+  background-color: var(--blanco);
+  
+  border-radius: 5rem;
+  color: var(--colorSecundario)
+  
+}
+.button-perfil:hover{
+  color: var(--colorSecundario);
+  background-color: var(--colorPrimarioHover);
+  
+  cursor: pointer;
+}
+
+.fondoinves{
+  
+  background-color: var(--blanco);
+  border-radius: 1rem;
+  width: 100%;
+  display: block;
+  margin: 5rem auto;
 }
 
 
