@@ -1,10 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Logo from '../../img/400x400.png';
+import LogoUsco from '../../img/logolargo.png';
 
 const Register = () => {
     return (
         <div>
+            <div className="text-center">
+                <img src={LogoUsco}></img>
+            </div>
             <div className="barra"></div>
             <div className="container">
                 <form className="form relative">

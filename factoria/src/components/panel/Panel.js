@@ -1,9 +1,13 @@
 import React from 'react';
 import Logo from '../../img/100x100.png';
+import LogoUsco from '../../img/logolargo.png';
 
 const Panel = () => {
     return (
         <div>
+            <div className="text-center">
+                <img src={LogoUsco}></img>
+            </div>
             <div className="barra"></div>
             <div className="marco">
                 <div className="flexbox">
