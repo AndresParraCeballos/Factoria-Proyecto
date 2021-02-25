@@ -408,11 +408,11 @@ a{
   background-color: var(--blanco);
   
   border-radius: 5rem;
-  color: var(--colorSecundario)
+  color: var(--colorPrimarioHover)  !important;
   
 }
 .button-perfil:hover{
-  color: var(--colorSecundario);
+  color: var(--colorSecundario) !important;
   background-color: var(--colorPrimarioHover);
   
   cursor: pointer;
@@ -428,3 +428,71 @@ a{
 }
 
 
+.button-reg{
+  padding: 0.8rem 5rem;
+  background-color: var(--colorPrimaro);
+  color: var(--colorSecundario);
+  border-radius: 5rem;
+  color: var(--colorSecundario) !important;
+  
+}
+
+
+.button-reg:hover{
+  color: #000 !important;
+  background-color: var(--colorSecundario);
+  cursor: pointer;
+  
+}
+.button-gris-amarillo{
+  background-color: aqua;
+  width: 20%;
+  height: 30px;
+  cursor: pointer;
+  background: #4F646E 0% 0% no-repeat padding-box;;
+  color: #d3d3d3 !important;
+}
+.button-gris-amarillo:active{
+  color: #000 !important;
+  background-color: var(--colorSecundario);
+  
+  width: 25%;
+  height: 40px;
+  
+}
+
+.addcenter{
+  justify-content: center;
+}
+
+.divlistado{
+
+}
+
+.sombra:hover {
+  box-shadow: black;
+}
+
+.img-listad{
+  
+  width: 200px; 
+  display: block;
+  
+  
+}
+.text-rojo{
+  color: #8F141B;
+  
+}
+
+.borderlista{
+  border-radius: 50px !important;
+}
+
+.bg-amarillo{
+  background-color: var(--colorSecundario);
+}
+.bg-amarillo:hover{
+  background-color: #4F646E;
+  color: #DFD4A6;
+}
