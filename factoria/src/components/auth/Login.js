@@ -4,6 +4,11 @@ import Logo from '../../img/400x400.png';
 import LogoUsco from '../../img/logolargo.png';
 
 const Login = () => {
+    //Funcion onSubmit para prevenir por defecto la accion del boton
+
+    const onSubmit = e => {
+        e.prevenDefault();
+    }
     return (
         <div>
             <div className="text-center">
@@ -11,7 +16,8 @@ const Login = () => {
             </div>
             <div className="barra"></div>
             <div className="container">
-                <form className="form relative">
+                <form className="form relative"
+                onSubmit={onSubmit}>
                     <img className="imglogin absolute" src={Logo}/>
                     <h1 className="text-center">Inicio Sesion</h1>
 
@@ -23,6 +29,7 @@ const Login = () => {
                             name="email"
                             placeholder="Tu email"
                             className="input"
+                            required
                         />
                     </div>
 
@@ -34,6 +41,7 @@ const Login = () => {
                             name="password"
                             placeholder="Tu contraseña"
                             className="input"
+                            required
                         />
                     </div>
 

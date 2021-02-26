@@ -1,9 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import Logo from '../../img/400x400.png';
 import LogoUsco from '../../img/logolargo.png';
 
 const Register = () => {
+    
+    const onSubmit = e => {
+        e.preventDefault();
+    }
     return (
         <div>
             <div className="text-center">
@@ -11,7 +15,8 @@ const Register = () => {
             </div>
             <div className="barra"></div>
             <div className="container">
-                <form className="form relative">
+                <form className="form relative"
+                onSubmit={onSubmit}>
                     <img className="imglogin absolute" src={Logo}/>
                     <h1 className="text-center">Registrate</h1>
 
@@ -23,6 +28,8 @@ const Register = () => {
                             name="email"
                             placeholder="Tu email"
                             className="input"
+                            required
+                            
                         />
                     </div>
 
@@ -34,6 +41,7 @@ const Register = () => {
                             name="password"
                             placeholder="Tu contraseña"
                             className="input"
+                            required
                         />
                     </div>
 
@@ -41,19 +49,22 @@ const Register = () => {
                         
                         <input
                             type="password"
-                            id="contrapassword"
+                            id="confirmar"
                             name="contrapassword"
                             placeholder="Repetir contraseña"
                             className="input"
+                            required
                         />
                     </div>
 
+                    
                     <div className="campo-form">
                         <input
                             type="submit"
                             className="btn btn-primario btn-block"
                             value="Crear cuenta"
                             className="button"
+                            
                         />
                     </div> 
 
